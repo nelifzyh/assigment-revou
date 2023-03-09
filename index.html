@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agent | Indonesia</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header style="border-bottom: 1px solid lightgray;">
+        <navbar class="container">
+            <div class="navbar">
+                <img class="logo" src="image/LOGORE.jpg" alt=""/>
+                <div class="menu">
+                    <a class="menu-item" href="#hero">Home</a>
+                    <a class="menu-item" href="#package">Our Package</a>
+                    <a class="menu-item" href="#call-us">Call Us</a>
+                </div>
+            </div>
+        </navbar>
+    </header>
+    <main style="border-bottom: 1px solid lightgray;">
+        <section id="hero">
+            <div class="container">
+                <div class="hero-title">
+                    <h1>Your Trusted Travel Agent's</h1>
+                    <h6>Your happines is our happines</h6>
+                </div>
+            </div>
+        </section>
+        <section id="about-contact">
+            <div class="container">
+                <div class="about-contact">
+                    <div class="about">
+                        <div class="slider">
+                            <img class="img-slideshow" src="image/post.jpeg"/>
+                            <img class="img-slideshow" src="image/post2.png"/>
+                            <img class="img-slideshow" src="image/post3.jpeg"/>
+                            <button onclick="plusDivs(-1)">Previous</button>
+                            <button onclick="plusDivs(1)">Nextgi</button>
+                        </div>
+                        <div class="about-content">
+                            <div class="content-caption">
+                                <p>"Liburan jadi menyenangkan bersama Travelku.id"</p>
+                            </div>
+                            <div class="content-person">
+                                <img src="image/profile.jpg" alt="">
+                                <div class="person-info">
+                                    <h6>Neli Fauziyah</h6>
+                                    <p>Mahasiswi, 18</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="border"/>
+                        <div class="about-information">
+                            <h6 class="information-title">Use this space to provide users with more information 
+                                about your offer. Consider it a follow-up to your headline and explain the 
+                                benefits of your service or product.
+                            </h6>
+                            <ul class="information-list">
+                                <li>
+                                    <div class="list-number">1</div>
+                                    <p class="list-paragraf">Your first feature, writen in the form of a benefits
+                                        statement.
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="list-number">2</div>
+                                    <p class="list-paragraf">Your second feature, writen in the form of a benefits
+                                        statement.
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="list-number">3</div>
+                                    <p class="list-paragraf">Your third feature writen, in the form of a benefits
+                                        statement.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="card">
+                            <div class="card-title">
+                                <h4>Contact Us</h4>
+                                <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima</p>
+                            </div>
+                            <div class="form-section">
+                                <form name="contact-form" onsubmit="return validateForm()">
+                                Your Name:
+                                <input placeholder="First and last name" type="text" name="name">
+                                <br>
+                                Email Addres:
+                                <input placeholder="example@gmail.com" type="text" name="email">
+                                <br>
+                                What are you interested in?
+                                <select name="select" id="">
+                                    <option value="" disabled selected>Select option</option>
+                                    <option value="">Bali</option>
+                                    <option value="">Japan</option>
+                                    <option value="">Singapore</option>
+                                    <option value="">Bandung</option>
+                                    <option value="">Surabaya</option>
+                                    <option value="">Third Feature</option>
+                                </select>
+                                <input type="submit" value="SEND">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="package" style="border-inline: 100px solid lightgray;">
+            <div class="container">
+                <div class="package-title">
+                    <h1>Our Package</h1>
+                </div>
+            </div>
+        </section>
+        <section id="destination">
+            <div class="container">
+                <div class="destination">
+                    <div class="destination-content">
+                        <div class="content-top">
+                            <div class="top">
+                                <img src="image/planeimg.jpeg" alt="">
+                                <div class="caption">
+                                    <h4>Bali</h4>
+                                    <p>Travel dan wisata di Bali, kunjungi cagar budaya
+                                        dan kuliner yang menarik.</p>
+                                </div>
+                            </div>
+                            <div class="top">
+                                <img src="image/planeimg.jpeg" alt="">
+                                <div class="caption">
+                                    <h4>Japan</h4>
+                                    <p>Travel dan wisata di Japan, kunjungi cagar budaya
+                                        dan kuliner yang menarik</p>
+                                </div>
+                            </div>
+                            <div class="top">
+                                <img src="image/planeimg.jpeg" alt="">
+                                <div class="caption">
+                                    <h4>Singapore</h4>
+                                    <p>This description supports and extends the bullet
+                                        point above.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="border">
+                        <div class="content-bottom">
+                            <div class="bottom">
+                                <img src="image/planeimg.jpeg" alt="">
+                                <div class="caption">
+                                    <h4>Bandung</h4>
+                                    <p>This description supports and extends the bullet
+                                        point above.</p>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <img src="image/planeimg.jpeg" alt="">
+                                <div class="caption">
+                                    <h4>Surabaya</h4>
+                                    <p>This description supports and extends the bullet
+                                        point above.</p>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <img src="image/planeimg.jpeg" alt="">
+                                <div class="caption">
+                                    <h4>Third Feature</h4>
+                                    <p>This description supports and extends the bullet
+                                        point above.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="call-us" style="border-top: 1px solid lightgray;">
+            <div class="container">
+                <div class="call-us">
+                    <h1>Your Closing Argument Headline</h1>
+                    <p>Suspendisse egestas rhoncus urna in bibendum. Donec urna naque, euismod sed justo quis,</p>
+                    <p>convallis tincidunt risus. Phasellus fringilla odio vel erat fringilla.</p>
+                    <a class="call" href="#hero">CALL TO ACTION</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <img class="logo" src="image/LOGORE.jpg" alt=""/>
+            <div class="footer-top">
+                <p>Term of Service</p>
+                <p>Privacy Policy</p>
+            </div>
+            <div class="footer-bottom">
+                <p>2023</p>
+                <p>Travelku.id</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
